@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='data' inline='true' name='federated.1g0iafc0cad2kl1ck0nlw0hhfjaw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='data' name='stat-direct.12hsjn51kie6av17rrshp1mxnf1l'>
+            <connection batch-size='' class='stat-direct' directory='D:/My Documents' encoding-error-limit='' filename='data.rdata' password='' server='' source-charset='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='stat-direct.12hsjn51kie6av17rrshp1mxnf1l' name='data.rdata' table='[data.rdata]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>rownames</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[rownames]</local-name>
+            <parent-name>[data.rdata]</parent-name>
+            <remote-alias>rownames</remote-alias>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.rdata_1B5EB73238754ECD8AFBB3D45EB0123C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>height</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[height]</local-name>
+            <parent-name>[data.rdata]</parent-name>
+            <remote-alias>height</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.rdata_1B5EB73238754ECD8AFBB3D45EB0123C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weight</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[weight]</local-name>
+            <parent-name>[data.rdata]</parent-name>
+            <remote-alias>weight</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.rdata_1B5EB73238754ECD8AFBB3D45EB0123C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pred</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pred]</local-name>
+            <parent-name>[data.rdata]</parent-name>
+            <remote-alias>pred</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.rdata_1B5EB73238754ECD8AFBB3D45EB0123C]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='HeightSum' datatype='real' name='[Calculation_661184737525215232]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([height])' />
+      </column>
+      <column caption='WeightSum' datatype='real' name='[Calculation_661184737525547009]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([weight])' />
+      </column>
+      <column caption='Correlation' datatype='real' name='[Calculation_661184737525858306]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SCRIPT_REAL(&quot;cor(.arg1, .arg2)&quot;,&#13;&#10;([Calculation_661184737525215232]), ([Calculation_661184737525547009]) )'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='data.rdata' datatype='table' name='[__tableau_internal_object_id__].[data.rdata_1B5EB73238754ECD8AFBB3D45EB0123C]' role='measure' type='quantitative' />
+      <column caption='Height' datatype='real' name='[height]' role='measure' type='quantitative' />
+      <column caption='Pred' datatype='real' name='[pred]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Rownames' datatype='integer' name='[rownames]' role='dimension' type='ordinal' />
+      <column caption='Weight' datatype='real' name='[weight]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;South Africa&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='rownames' />
+        <field-sort-custom-order field='height' />
+        <field-sort-custom-order field='Calculation_661184737525215232' />
+        <field-sort-custom-order field='weight' />
+        <field-sort-custom-order field='Calculation_661184737525547009' />
+        <field-sort-custom-order field='pred' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='data.rdata' id='data.rdata_1B5EB73238754ECD8AFBB3D45EB0123C'>
+            <properties context=''>
+              <relation connection='stat-direct.12hsjn51kie6av17rrshp1mxnf1l' name='data.rdata' table='[data.rdata]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data' name='federated.1g0iafc0cad2kl1ck0nlw0hhfjaw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g0iafc0cad2kl1ck0nlw0hhfjaw'>
+            <column caption='HeightSum' datatype='real' name='[Calculation_661184737525215232]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([height])' />
+            </column>
+            <column caption='WeightSum' datatype='real' name='[Calculation_661184737525547009]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([weight])' />
+            </column>
+            <column caption='Correlation' datatype='real' name='[Calculation_661184737525858306]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SCRIPT_REAL(&quot;cor(.arg1, .arg2)&quot;,&#13;&#10;([Calculation_661184737525215232]), ([Calculation_661184737525547009]) )'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Height' datatype='real' name='[height]' role='measure' type='quantitative' />
+            <column-instance column='[rownames]' derivation='None' name='[none:rownames:ok]' pivot='key' type='ordinal' />
+            <column aggregation='Sum' caption='Rownames' datatype='integer' name='[rownames]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_661184737525215232]' derivation='User' name='[usr:Calculation_661184737525215232:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_661184737525547009]' derivation='User' name='[usr:Calculation_661184737525547009:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_661184737525858306]' derivation='User' name='[usr:Calculation_661184737525858306:qk:3]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.1g0iafc0cad2kl1ck0nlw0hhfjaw].[rownames]' ordering-type='Field' />
+            </column-instance>
+            <column caption='Weight' datatype='real' name='[weight]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1g0iafc0cad2kl1ck0nlw0hhfjaw].[none:rownames:ok]' />
+              <lod column='[federated.1g0iafc0cad2kl1ck0nlw0hhfjaw].[usr:Calculation_661184737525858306:qk:3]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1g0iafc0cad2kl1ck0nlw0hhfjaw].[usr:Calculation_661184737525547009:qk]</rows>
+        <cols>[federated.1g0iafc0cad2kl1ck0nlw0hhfjaw].[usr:Calculation_661184737525215232:qk]</cols>
+      </table>
+      <simple-id uuid='{0B1B605C-BB56-42FB-9C93-7A265DA572DF}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1g0iafc0cad2kl1ck0nlw0hhfjaw].[none:rownames:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{13B57C03-17A2-4476-8320-01E75F777496}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      rkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>

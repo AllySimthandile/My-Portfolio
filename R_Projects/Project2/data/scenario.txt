@@ -1,0 +1,9 @@
+The Adult Income Dataset, also known as the Census Income Dataset, contains information about adults and is typically used to predict whether a person earns more than $50K/year based on various demographic features. The dataset includes attributes such as age, work class, education, marital status, occupation, hours worked per week, and more.
+
+Problem Statement:
+We want to build a machine learning model to predict if an individual's income exceeds $50K/year based on their features. The target variable is categorical, with two classes:
+
+>50K (income greater than $50K)
+<=50K (income less than or equal to $50K)
+After training a classifier (e.g., Logistic Regression, Random Forest, etc.), we will evaluate its performance using a Confusion Matrix. A confusion matrix is a summary table used to assess how well a classification model performs, showing the counts of actual versus predicted classifications.
+

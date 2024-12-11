@@ -1,0 +1,6 @@
+implement Bayesian probability using Python. For our demo, we generate
+output values from two independent variables, x1 and x2. The output model is
+defined as follows:
+c is a random value. We define α, β1, β2, and σ as 0.5, 1, 2.5, and 0.5.
+These independent variables are generated using a random object from the NumPy
+library. After that, we compute the model with these variables.

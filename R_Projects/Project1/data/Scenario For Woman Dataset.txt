@@ -1,0 +1,5 @@
+Let's start with a simple example in R, where we predict women's weight from their
+height. If we were articulating this question per Microsoft's Team Data Science
+Process, we would be stating this as a business question during the business
+understanding phase. How can we come up with a model that helps us to predict
+what the women's weight is going to be, dependent on their height?

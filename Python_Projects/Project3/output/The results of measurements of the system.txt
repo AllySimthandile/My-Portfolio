@@ -1,0 +1,149 @@
+Mocking Adafruit_DHT and RPi.GPIO for Windows
+initialization...
+saving membership...
+done
+program is ready for making decision based fuzzy logic
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+turn on a machine
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on
+sensing...
+Sensing: Temperature=25.0*C Humidity=80.0%
+Normalization: Temperature=0.4 Humidity=0.8
+fuzzy membership: Temperature={'cold': 0.9618841763091945, 'warm': 0.009414072602750017, 'hot': 1.3878009889412419e-09} Humidity={'low': 1.0, 'high': 6.78271149864835e-09}
+5.539509341251452
+a machine already turn on

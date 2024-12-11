@@ -1,0 +1,1 @@
+generates fuzzy membership functions for temperature categories (Cold, Warm, and Hot) and saves the resulting plot as an image

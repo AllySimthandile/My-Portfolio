@@ -1,0 +1,4 @@
+We build a fuzzy logic to implement a decision system. Two inputs from the sensing
+are temperature and humidity. In this case, we start developing a fuzzy membership
+for temperature and humidity. For testing, I build the following fuzzy membership
+models for temperature and humidity.
